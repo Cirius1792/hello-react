@@ -1,7 +1,7 @@
 import React from 'react';
-import edit_pic from "../assets/edit-icon.png";
+import edit_pic from "../assets/settings.svg";
 import classes from "./EditIcon.module.css";
-
+//icon from https://feathericons.com/?query=gear
 const EditIcon = (props) => {
       return (
       <img

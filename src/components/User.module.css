@@ -1,0 +1,22 @@
+.userCard {
+    margin: 25px;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+}
+.userCard h1{
+    font-size:2rem;
+}
+.userCard h2 {
+    font-variant: small-caps;
+    font-size:1.5rem;
+    color: rgb(97, 95, 95);
+}
+.userCard p{
+    text-align:justify;
+}
+
+.logo {
+    width: 30px;
+}
+

@@ -1,0 +1,11 @@
+.inputForm label{
+  font-size: 24;
+  font-style: italic;
+}
+.inputForm input{
+    background-color: rgb(253, 253, 253);
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 60%;
+  }

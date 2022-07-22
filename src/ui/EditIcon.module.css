@@ -1,0 +1,7 @@
+.editIcon {
+    width: 50px;
+}
+.editIcon:hover,
+.editIcon:active {
+transform: scale(1.3);
+}

@@ -1,7 +1,9 @@
 .editIcon {
     width: 50px;
 }
+
 .editIcon:hover,
 .editIcon:active {
-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;
 }

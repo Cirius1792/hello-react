@@ -16,12 +16,13 @@ const Greetings = (props) => {
   const text = `Hello ${name}!`; 
   
   const handleChange = (value) => {
+    setEditState(false)
     navigate(`/greetings?name=${value}`)
   };
   const handleEditChange = () => setEditState((oldState) => !oldState);
   return (
     <div>
-      <div className={classes.container}>
+      <div className={classes.mainContainer}>
         <TextComponent text={text} font={fontState}/>
       </div>
       <div className={classes.container}>

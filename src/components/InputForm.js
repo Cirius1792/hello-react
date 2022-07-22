@@ -22,7 +22,12 @@ const InputForm = (props) => {
     event.preventDefault();
     if (isValidInput) props.onNameChange(valueState);
   };
-
+  const options = SUPPORTED_FONTS.map((font) => (
+    <option key={font} value={font}>
+      {font}
+    </option>
+  ))
+  options.push(<option key="default" value="default" disabled>Choose a Font</option>)
   return (
     <form className={classes.inputForm}>
       <p>
@@ -45,13 +50,8 @@ const InputForm = (props) => {
         </p>
       )}
       <p className={classes.fontForm}>
-        <label>Font:</label>
-        <select id="browsers" onChange={(event) => props.onFontChange(event.target.value)}>
-          {SUPPORTED_FONTS.map((font) => (
-            <option key={font} value={font}>
-              {font}
-            </option>
-          ))}
+        <select id="browsers" defaultValue="default" onChange={(event) => props.onFontChange(event.target.value)}>
+          {options}
         </select>
       </p>
     </form>

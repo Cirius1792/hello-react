@@ -1,5 +1,5 @@
 
-const SUPPORTED_FONTS = ["Times New Roman", "Arial"];
+const SUPPORTED_FONTS = ["Courier New", "Calibri", "Times New Roman", "Arial"];
 
 const TextComponent = (props) => {
   const text = props.text;

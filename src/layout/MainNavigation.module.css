@@ -5,11 +5,15 @@
   padding: 0 10%;
   justify-content: space-between;
   align-items: center;
-  background-color: #008080;
+  background-color: rgb(99, 102, 106);
 }
 
 .logo {
   font-size: 2rem;
+  color: white;
+}
+.logo a {
+  text-decoration: none;
   color: white;
 }
 
@@ -27,7 +31,7 @@
 
 .nav a {
   text-decoration: none;
-  color: #88dfdf;
+  color: #989898;
 }
 
 @media screen and (min-width: 300px) {
@@ -44,5 +48,5 @@
 .nav a:hover,
 .nav a:active,
 .nav a.active {
-  color: #e6fcfc;
+  color: #F8F8F8;
 }

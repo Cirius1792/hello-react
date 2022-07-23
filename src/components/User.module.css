@@ -16,6 +16,13 @@
     text-align:justify;
 }
 
+.icons {
+    display: inline;
+    align-content: center;
+}
+.icons img {
+    margin:0.5rem;
+}
 .logo {
     width: 30px;
 }

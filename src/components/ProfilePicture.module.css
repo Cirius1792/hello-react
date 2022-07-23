@@ -18,7 +18,7 @@
 .img {
   --border: 15px;
   --gap: 12px;
-  --color: #06868a;
+  --color: rgb(99, 102, 106);
 
   width: 200px;
   aspect-ratio: 1;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate, useLocation } from "react-router-dom";
 import { settingsActions } from "../store/settings";
-import TextComponent, { SUPPORTED_FONTS } from "../components/TextComponent";
+import TextComponent from "../components/TextComponent";
 import InputForm from "../components/InputForm";
 import EditIcon from "../ui/EditIcon";
 import classes from "./Greetings.module.css";
